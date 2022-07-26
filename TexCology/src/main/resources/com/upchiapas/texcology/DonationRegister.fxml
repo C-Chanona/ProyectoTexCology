@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="709.0" prefWidth="542.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.texcology.Controllers.DonationRegisterController">
+   <children>
+      <Text layoutX="176.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-blend-mode: A5D999;" styleClass="A5D999" text="Datos del donador" textAlignment="CENTER">
+         <font>
+            <Font name="Yu Gothic Light" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="252.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sucursal:">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="253.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha:">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="238.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre(S):">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="244.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos:">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="211.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo electronico:">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="204.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comentario adicional:">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtNombre" alignment="TOP_CENTER" layoutX="181.0" layoutY="106.0" prefHeight="25.0" prefWidth="179.0" />
+      <TextField fx:id="txtApellidos" alignment="CENTER" layoutX="164.0" layoutY="162.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="txtCorreo" alignment="CENTER" layoutX="159.0" layoutY="217.0" prefHeight="25.0" prefWidth="231.0" />
+      <ComboBox fx:id="comboLugar" layoutX="202.0" layoutY="332.0" prefHeight="25.0" prefWidth="145.0" promptText="Elegir" />
+      <Button fx:id="btnConfirmar" layoutX="242.0" layoutY="669.0" mnemonicParsing="false" onMouseClicked="#btnConfirmarOnMouseClicked" text="Confirmar" />
+      <TextField fx:id="txtFech" alignment="CENTER" layoutX="196.0" layoutY="275.0" prefHeight="25.0" prefWidth="157.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="40.0" prefHeight="39.0" prefWidth="427.0" text="Los datos son necesarios  para la autentificacion del usuario&#10;" textAlignment="CENTER">
+         <font>
+            <Font name="Yu Gothic Light" size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtComent" layoutX="145.0" layoutY="559.0" prefHeight="100.0" prefWidth="258.0" />
+      <CheckBox fx:id="checkPaqueteria" layoutX="360.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#checkPaqueteriaOnMouseClicked" prefHeight="17.0" prefWidth="81.0" text="Paqueteria" />
+      <ComboBox fx:id="comboPaqueteria" layoutX="350.0" layoutY="498.0" prefHeight="25.0" prefWidth="101.0" promptText="Elegir" />
+      <Text layoutX="204.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prendas a donar:">
+         <font>
+            <Font name="Sitka Text" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtPlayerasBlusas" layoutX="68.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vestimenta Superior:">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="333.0" layoutY="534.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="105.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Accesorios:">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtSuperior" alignment="CENTER" layoutX="92.0" layoutY="420.0" prefHeight="25.0" prefWidth="100.0" />
+      <TextField fx:id="txtInferior" alignment="CENTER" layoutX="350.0" layoutY="420.0" prefHeight="25.0" prefWidth="100.0" />
+      <TextField fx:id="txtAccesorio" alignment="CENTER" layoutX="92.0" layoutY="486.0" prefHeight="25.0" prefWidth="100.0" />
+      <Text fx:id="txtInferior" layoutX="333.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vestimenta Inferior:">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.texcology.Controllers.NosotrosController">
+   <children>
+      <Pane layoutX="266.0" layoutY="8.0" prefHeight="70.0" prefWidth="275.0" style="-fx-background-color: #FFB6B6;">
+         <children>
+            <Text layoutX="22.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sobre nosotros">
+               <font>
+                  <Font name="Yu Gothic Light" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fitHeight="119.0" fitWidth="116.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/nosotros.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="131.0" layoutX="572.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/sobre.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="14.0" layoutY="189.0" prefHeight="335.0" prefWidth="200.0" style="-fx-background-color: #817FBD;">
+         <children>
+            <Text layoutX="14.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Texcology es una aplicación que&#10;se  centra en la problemática del &#10;exceso de  ropa que existe en el &#10;planeta y por las  personas que &#10;no tiene los recursos para &#10;comprarse prendas, lo principal &#10;de esta aplicación es que recibe&#10; donaciones de ropa  para crear y&#10;dar una segunda vida a las &#10;prendas y a la vez ayudamos al &#10;planeta contaminar menos ." textAlignment="CENTER">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="53.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Que es texcology" />
+         </children>
+      </Pane>
+      <Pane layoutX="293.0" layoutY="189.0" prefHeight="335.0" prefWidth="200.0" style="-fx-background-color: #F696AF;">
+         <children>
+            <Text layoutX="84.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vision" />
+            <Text layoutX="1.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Texcology quiere ser reconocida &#10;como  una organización líder y &#10;consolidada en  materia ambiental, &#10;comprometida con el  mejoramiento &#10;de la calidad de vida de la población&#10;y el manejo sostenible de los recursos &#10;naturales, en un mundo donde  los &#10;pueblos vivan en igualdad y con &#10;conciencia de nuestro planeta.&#10;" textAlignment="CENTER">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="572.0" layoutY="189.0" prefHeight="335.0" prefWidth="200.0" style="-fx-background-color: #AA77C3;">
+         <children>
+            <Text layoutX="82.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mision" />
+            <Text layoutX="6.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La misión es entregar vestimenta a&#10;las personas más vulnerables del &#10;país, en favor  de contribuir  a &#10;alcanzar una mejor calidad de vida &#10;a quienes más lo necesitan" textAlignment="CENTER" wrappingWidth="186.15234375">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button fx:id="btnInicio" layoutX="711.0" layoutY="55.0" mnemonicParsing="false" onMouseClicked="#btnInicioOnMouseClicked" text="Inicio" />
+   </children>
+</Pane>
